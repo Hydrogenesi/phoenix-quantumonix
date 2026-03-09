@@ -7,7 +7,7 @@ echo "Auto-generated: $(date)" >> "$OUTPUT"
 echo "" >> "$OUTPUT"
 echo "| Plate | File | Diagram |" >> "$OUTPUT"
 echo "|-------|------|---------|" >> "$OUTPUT"
-for f in plates/Plate-*.md; do
+for f in plates/*.md; do
   NAME=$(basename "$f" .md)
   MMD="docs/diagrams/${NAME}.mmd"
   if [ -f "$MMD" ]; then
