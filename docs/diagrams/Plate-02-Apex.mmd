@@ -1,0 +1,25 @@
+graph TD
+    ACC["Plate 01\nAccretion\n(upstream)"]
+    APEX["APEX\nOₐ = C + V + L"]
+    DV["Plate 03\nDual Vector\n(downstream)"]
+
+    ACC -->|"identity threads"| C
+    ACC -->|"field behavior"| C
+
+    subgraph APEX_LAYER["Apex Operator Layer"]
+        C["Compression\nidentity collapse"]
+        V["Vectorization\nestablish north"]
+        L["Law-binding\nirreversible seal"]
+        C --> V --> L
+    end
+
+    L --> APEX
+    APEX -->|"unified strand"| DV
+
+    style APEX fill:#1a1a2e,color:#e0a800,stroke:#e0a800
+    style APEX_LAYER fill:#0d0d1a,color:#fff,stroke:#444
+    style C fill:#16213e,color:#fff,stroke:#444
+    style V fill:#16213e,color:#fff,stroke:#444
+    style L fill:#16213e,color:#fff,stroke:#e0a800
+    style ACC fill:#0d0d1a,color:#aaa,stroke:#333
+    style DV fill:#0d0d1a,color:#aaa,stroke:#333
