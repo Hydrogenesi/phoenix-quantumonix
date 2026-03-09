@@ -1,0 +1,33 @@
+graph TD
+    NS["⭐ Nano-Star Simulation\nStellar Structure Engine"]
+
+    NS --> CORE["Core Ignition\nRecursion Depth: MAX"]
+    NS --> SHELL["Shell Layers\nDepth Bands 1-N"]
+    NS --> ENVELOPE["Convergence\nEnvelope"]
+
+    CORE --> C1["Fusion Rate\nStability Metric"]
+    CORE --> C2["Pressure\nCoherence Index"]
+    C1 --> C3["Core Stability\nAssessment"]
+    C2 --> C3
+
+    SHELL --> S1["Layer 1\nProto-Depth"]
+    SHELL --> S2["Layer N\nEmergent Surface"]
+    S1 --> S3["Band Transition\nGating"]
+    S2 --> S3
+
+    ENVELOPE --> E1["Safe Band\nBoundary"]
+    ENVELOPE --> E2["Divergence\nThreshold"]
+    E1 --> E3["Enforcement\nCheck"]
+    E2 --> E3
+
+    C3 --> ASSESS["Global State\nAssessment"]
+    S3 --> ASSESS
+    E3 --> ASSESS
+
+    ASSESS -->|"stable"| EVOLVE["Next Cycle\nEvolution"]
+    ASSESS -->|"unstable"| CLAMP["Depth Clamp\nRecursionDepthError"]
+
+    style NS fill:#1a1a2e,color:#e0a800,stroke:#e0a800
+    style CLAMP fill:#2e1616,color:#ff6b35,stroke:#ff6b35
+    style EVOLVE fill:#16213e,color:#90ee90,stroke:#90ee90
+    style CORE fill:#16213e,color:#e0a800,stroke:#444
