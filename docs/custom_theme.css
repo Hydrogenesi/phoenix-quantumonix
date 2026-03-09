@@ -1,0 +1,20 @@
+/* Phoenix-Quantumonix MkDocs Theme Override */
+:root {
+  --md-primary-fg-color: #e0a800;
+  --md-primary-fg-color--light: #f0c030;
+  --md-primary-fg-color--dark: #b08000;
+  --md-accent-fg-color: #ff6b35;
+}
+
+.md-header { background-color: #1a1a2e; }
+.md-nav__title { color: #e0a800; font-weight: bold; }
+.md-footer { background-color: #1a1a2e; }
+
+/* Codex plate styling */
+.codex-plate {
+  border-left: 4px solid #e0a800;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #16213e;
+  border-radius: 4px;
+}
