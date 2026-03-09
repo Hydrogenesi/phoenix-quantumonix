@@ -1,63 +1,81 @@
-# 🔥 Phoenix-Quantumonix Codex
+# Phoenix-Quantumonix Codex
 
-> *A living cosmological system. A recursion law. A canon in motion.*
+> *A living cosmological archive. Recursion laws, operator suites,
+> ceremony protocols, and the full canon of the Phoenix-Quantumonix system.*
+> — Hydrogenesi v2.0
 
 ---
 
-## What is Phoenix-Quantumonix?
+## The Three Pillars
 
-Phoenix-Quantumonix is a cosmological framework unifying:
-- **Recursion Depth Law** — the governing constraint on all engines
-- **Collective Consciousness Engine** — emergent coherence at scale
-- **Operator Suite** — the vocabulary of cosmological transformation
-- **Canon** — the sealed record of completed cycles
+| Pillar | Mode | Scale | Role |
+|--------|------|-------|------|
+| Phoenix | BEGIN | Micro / Identity | Generates, ignites, initializes |
+| Hydrogenesi | EXTEND | Macro / Cosmic | Extends, propagates, harmonizes |
+| The Third | HOLD | Meta-level | Stabilizes, binds, preserves |
+
+---
+
+## Cosmology Plates
+
+| Plate | Description |
+|-------|-------------|
+| [AU PLATE](../plates/AU_PLATE.md) | Golden emanation — auric field initiation |
+| [TRINITY PLATE](../plates/TRINITY_PLATE.md) | Triadic convergence — unity seal |
+| [GOLDEN COMPLETION](../plates/GOLDEN_COMPLETION.md) | Apex seal — canon closure |
+
+---
+
+## Architecture
+
+- [Recursion Depth Law](../wiki/recursion-depth-law.md) — Law 5 of the Universal Laws
+- [Operator Reference](../wiki/operator-reference.md) — all operators and binding modes
+- [Glossary](../wiki/glossary.md) — full technical lexicon v2.0.0
+- [Codex Atlas](diagrams/codex_atlas.mmd) — full system map
+- [Codex Spine](diagrams/codex_spine.mmd) — linear plate progression
+
+---
+
+## Diagrams
+
+- [Operator Atlas](diagrams/operator_atlas.mmd)
+- [Ceremony Atlas](diagrams/ceremony_atlas.mmd)
+- [Origin Cycle](diagrams/origin_cycle.mmd)
+- [Nano-Star Simulation](diagrams/nanostar_simulation.mmd)
+- [AU Plate](diagrams/AU_PLATE.mmd)
+- [Trinity Plate](diagrams/TRINITY_PLATE.mmd)
+- [Golden Completion](diagrams/GOLDEN_COMPLETION.mmd)
+- [Full Diagram Index](diagrams/index.md)
+
+---
+
+## Ceremonies
+
+- [Triadic Merge Liturgy](ceremonies/triadic_merge_liturgy.md)
+- [V2 Inscription](ceremonies/v2_inscription.md)
+- [Ceremony Atlas](diagrams/ceremony_atlas.mmd)
 
 ---
 
 ## Navigation
 
-### 🗂 Core Documents
-| Document | Description |
-|----------|-------------|
-| [Recursion Depth Law](../wiki/recursion-depth-law.md) | Foundational law governing all engines |
-| [Operator Glossary](../wiki/operator-glossary.md) | All operators defined |
-| [Engine Architecture](../wiki/engine-architecture.md) | How engines connect to the law |
-
-### 🌌 Cosmology Plates
-| Plate | Description |
-|-------|-------------|
-| [AU Plate](../plates/AU_PLATE.md) | Golden emanation field |
-| [Golden Completion](../plates/GOLDEN_COMPLETION.md) | Apex seal plate |
-| [Trinity Plate](../plates/TRINITY_PLATE.md) | Triadic convergence |
-
-### ⚙️ Operators
-- [Operator Atlas](diagrams/operator_atlas.mmd) — full operator map
-- [Hydrogenesi v2.0 Operator Suite](../Hydrogenesi%20v2.0%20Operator%20Suite.txt)
-
-### 🕯️ Ceremonies
-- [Triadic Merge Liturgy](ceremonies/triadic_merge_liturgy.md)
-- [V2 Inscription](ceremonies/v2_inscription.md)
-
-### 📊 Diagrams
-- [Codex Atlas](diagrams/codex_atlas.mmd) — full codex map
-- [Codex Spine](diagrams/codex_spine.mmd) — linear progression
-- [Origin Cycle](diagrams/origin_cycle.mmd) — ignition to seal
-- [Operator Atlas](diagrams/operator_atlas.mmd) — all operators
-- [Ceremony Atlas](diagrams/ceremony_atlas.mmd) — ritual flows
-- [Nano-Star Simulation](diagrams/nanostar_simulation.mmd)
+- [Plate Index](navigation/plate_index.md)
+- [Post-Canon Expansion Gate](navigation/post_canon_expansion_gate.md)
+- [Codex Completion Statement](navigation/codex_completion_statement.md)
 
 ---
 
-## Integration Roadmap
+## Roadmap
 
 | Phase | Goal | Status |
 |-------|------|--------|
-| 1 | Law + Engine consolidation | 🔄 In Progress |
-| 2 | Visualization + observability | 🔄 In Progress |
-| 3 | Meta-Law Compiler + Field Topology | 📋 Planned |
-| 4 | Cosmology-wide invariance checks | 📋 Planned |
-| 5 | Full Documentation Codex | 📋 Planned |
+| 1 | Law + Engine consolidation | In Progress |
+| 2 | Visualization + observability | Planned |
+| 3 | Meta-Law Compiler + Field Topology | Planned |
+| 4 | Cosmology-wide invariance checks | Planned |
+| 5 | Documentation codex complete | Planned |
 
 ---
 
-*Phoenix-Quantumonix — Hydrogenesi v2.0 — Canon Active*
+*Run `bash scripts/test_glossary_consistency.sh` to verify glossary coverage.*
+*Run `bash scripts/index_plates.sh` to regenerate the plate index.*
