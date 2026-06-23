@@ -1,0 +1,25 @@
+graph TD
+    EA["Entity A\nField A"]
+    EB["Entity B\nField B"]
+    I1["I1 Mutual Influence"]
+    EVENT["Interaction Event"]
+    I2["I2 Conservation\nof Identity"]
+    I3["I3 Event Integrity"]
+    AP["A prime\ntransformed"]
+    BP["B prime\ntransformed"]
+    PV["Prime Vector\nPlate 01"]
+
+    EA --> I1
+    EB --> I1
+    I1 --> EVENT
+    EVENT --> I2
+    EVENT --> I3
+    I2 --> AP
+    I2 --> BP
+    I3 -.->|"projectable to"| PV
+
+    style EVENT fill:#1a1a2e,color:#e0a800,stroke:#e0a800
+    style I1 fill:#16213e,color:#fff,stroke:#444
+    style I2 fill:#16213e,color:#fff,stroke:#444
+    style I3 fill:#16213e,color:#fff,stroke:#e0a800
+    style PV fill:#0d0d1a,color:#aaa,stroke:#333
