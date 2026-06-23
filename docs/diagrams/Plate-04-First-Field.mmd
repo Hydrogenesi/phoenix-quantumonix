@@ -1,0 +1,24 @@
+graph TD
+    BOUND["Boundary\nPlate 03"]
+    HIGH["High Side"]
+    LOW["Low Side"]
+    GRAD["Gradient\nF1 Coherence"]
+    ANCHOR["Boundary Anchor\nF2"]
+    PROP["Propagation\nF3 Fidelity"]
+    PV["Prime Vector\nPlate 01"]
+    NEXT["Interaction\nPlate 05"]
+
+    BOUND --> HIGH
+    BOUND --> LOW
+    HIGH --> GRAD
+    LOW --> GRAD
+    GRAD --> ANCHOR
+    ANCHOR --> PROP
+    PV -.->|"source axis"| PROP
+    PROP --> NEXT
+
+    style BOUND fill:#0d0d1a,color:#aaa,stroke:#333
+    style GRAD fill:#1a1a2e,color:#e0a800,stroke:#e0a800
+    style PROP fill:#16213e,color:#fff,stroke:#e0a800
+    style PV fill:#0d0d1a,color:#aaa,stroke:#333
+    style NEXT fill:#0d0d1a,color:#aaa,stroke:#333
