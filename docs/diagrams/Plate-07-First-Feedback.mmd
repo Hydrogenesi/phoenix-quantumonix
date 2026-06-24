@@ -1,0 +1,25 @@
+graph TD
+    STATE["System State"]
+    SENSOR["Sensory Fidelity\nF1 Measurement"]
+    MEASURE["Measurement\nClear Reading"]
+    EVAL["Evaluation"]
+    RESPONSE["Response Coherence\nF2 Action"]
+    ACTION["Action\nSystem Adjustment"]
+    EFFECT["Effect"]
+    ITERATE["Stability Through Iteration\nF3 Balance"]
+    
+    STATE --> SENSOR
+    SENSOR --> MEASURE
+    MEASURE --> EVAL
+    EVAL --> RESPONSE
+    RESPONSE --> ACTION
+    ACTION --> EFFECT
+    EFFECT --> ITERATE
+    ITERATE -.->|"cycle"| STATE
+
+    style SENSOR fill:#1a1a2e,color:#e0a800,stroke:#e0a800
+    style RESPONSE fill:#1a1a2e,color:#e0a800,stroke:#e0a800
+    style ITERATE fill:#16213e,color:#fff,stroke:#e0a800
+    style STATE fill:#0d0d1a,color:#aaa,stroke:#333
+    style MEASURE fill:#0d0d1a,color:#aaa,stroke:#333
+    style ACTION fill:#0d0d1a,color:#aaa,stroke:#333
