@@ -1,0 +1,26 @@
+graph TD
+    I1["Interaction 1"]
+    I2["Interaction 2"]
+    I3["Interaction 3"]
+    I4["Interaction 4"]
+    COUP["Internal Coupling\nS1"]
+    EMERG["Emergent Coherence\nS2"]
+    MAINT["Self-Maintenance\nS3"]
+    SYSTEM["System Identity\nStable Organization"]
+    
+    I1 --> COUP
+    I2 --> COUP
+    I3 --> COUP
+    I4 --> COUP
+    COUP --> EMERG
+    EMERG --> MAINT
+    MAINT --> SYSTEM
+
+    style COUP fill:#1a1a2e,color:#e0a800,stroke:#e0a800
+    style EMERG fill:#1a1a2e,color:#e0a800,stroke:#e0a800
+    style MAINT fill:#16213e,color:#fff,stroke:#e0a800
+    style SYSTEM fill:#16213e,color:#fff,stroke:#e0a800
+    style I1 fill:#0d0d1a,color:#aaa,stroke:#333
+    style I2 fill:#0d0d1a,color:#aaa,stroke:#333
+    style I3 fill:#0d0d1a,color:#aaa,stroke:#333
+    style I4 fill:#0d0d1a,color:#aaa,stroke:#333
