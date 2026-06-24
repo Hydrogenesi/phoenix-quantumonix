@@ -1,18 +1,30 @@
 graph TD
-    MOTION["Motion\n(Plate 02)"]
-    BOUND["Boundary\nB1 Distinction"]
-    INSIDE["Inside\nself"]
-    OUTSIDE["Outside\nother"]
-    RECIP["B2 Reciprocity"]
-    CROSS["self -> self'\nB3 Identity Continuity"]
+    MOTION["Motion
+Plate 02"]
+    LIMIT["Encounter Limit"]
+    B1["B1 Distinction
+Constraint"]
+    B2["B2 Reciprocity
+Condition"]
+    B3["B3 Continuity
+of Identity"]
+    BOUNDARY["The Boundary
+Partition Created"]
+    INSIDE["Inside"]
+    OUTSIDE["Outside"]
 
-    MOTION --> BOUND
-    BOUND --> INSIDE
-    BOUND --> OUTSIDE
-    INSIDE --> RECIP
-    OUTSIDE --> RECIP
-    RECIP --> CROSS
+    MOTION --> LIMIT
+    LIMIT --> B1
+    LIMIT --> B2
+    LIMIT --> B3
+    B1 --> BOUNDARY
+    B2 --> BOUNDARY
+    B3 --> BOUNDARY
+    BOUNDARY --> INSIDE
+    BOUNDARY --> OUTSIDE
 
-    style BOUND fill:#1a1a2e,color:#e0a800,stroke:#e0a800
-    style RECIP fill:#16213e,color:#fff,stroke:#444
-    style CROSS fill:#16213e,color:#e0a800,stroke:#e0a800
+    style BOUNDARY fill:#1a1a2e,color:#e0a800,stroke:#e0a800
+    style B1 fill:#16213e,color:#fff,stroke:#444
+    style B2 fill:#16213e,color:#fff,stroke:#444
+    style B3 fill:#16213e,color:#fff,stroke:#e0a800
+    style MOTION fill:#0d0d1a,color:#aaa,stroke:#333
